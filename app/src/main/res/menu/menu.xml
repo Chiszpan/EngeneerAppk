@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mchis.engeneerappk.MainActivity" >
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_48dp"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_info"
+        android:icon="@drawable/ic_info_outline_white_48dp"
+        android:title="action_info"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_help"
+        android:icon="@drawable/ic_info_outline_white_48dp"
+        android:title="Pomoc"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_info_outline_white_48dp"
+        android:title="Ustawienia"
+        app:showAsAction="never"/>
+
+</menu>
